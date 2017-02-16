@@ -9,8 +9,7 @@ namespace CalcApp
 {
     class Calc : ContentPage
     {
-        String firstNumber = "";
-        String secondNumber = "";
+       
         Label displayLabel;
         Boolean multiplyFlag = false;
         Boolean divideFlag = false;
@@ -279,11 +278,7 @@ namespace CalcApp
                 displayLabel.Text = (doublevalue1 - doublevalue2).ToString();
                 subtractFlag = false;
 
-
-
-
-
-            }
+}
 
 
 
