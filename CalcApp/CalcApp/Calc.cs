@@ -278,6 +278,11 @@ namespace CalcApp
 
                 displayLabel.Text = (doublevalue1 - doublevalue2).ToString();
                 subtractFlag = false;
+
+
+
+
+
             }
 
 
